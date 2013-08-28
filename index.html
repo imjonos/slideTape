@@ -1,0 +1,41 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="/tmp/slider/slideTape.js"></script>
+        
+        <link type="text/css" href="/tmp/slider/slideTape.css"  rel="stylesheet" />
+    </head>
+    <body>
+        
+<div class="slideTape">
+    <ul class="slider">
+
+       
+                <li><img id="img_1" name="test1" src="/tmp/slider/img/lib/i01.jpg" data-photo-id="1"></li>
+                 <li><img id="img_2" name="test1" src="/tmp/slider/img/lib/i02.jpg" data-photo-id="2"></li>
+                  <li><img id="img_3" name="test1" src="/tmp/slider/img/lib/i03.jpg" data-photo-id="3"></li>
+                 <li><img id="img_4" name="test1" src="/tmp/slider/img/lib/i04.jpg" data-photo-id="4"></li>
+                  <li><img id="img_5" name="test1" src="/tmp/slider/img/lib/i01.jpg" data-photo-id="5"></li>
+                 <li><img id="img_6" name="test1" src="/tmp/slider/img/lib/i02.jpg" data-photo-id="6"></li>
+                  <li><img id="img_7" name="test1" src="/tmp/slider/img/lib/i03.jpg" data-photo-id="7"></li>
+                 <li><img id="img_8" name="test1" src="/tmp/slider/img/lib/i04.jpg" data-photo-id="8"></li>
+        
+    </ul>
+    <div class="back"><img src="/tmp/slider/img/arrow3.png" /></div>
+    <div class="next"><img src="/tmp/slider/img/arrow4.png" /></div>
+   
+</div>          
+<script>
+  $(document).ready(function() {
+        jQuery(".slideTape").slideTape({'width': '621px'});
+  });     
+</script>        
+    </body>
+</html>

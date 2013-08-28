@@ -1,0 +1,94 @@
+/* 
+    Document   : slider
+    Created on : 28.08.2013, 12:52:50
+    Author     : nos
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+    .slideTape{
+        
+        height: 145px;
+        position: relative;
+        left: -30px;
+        width: 621px;
+    }
+    .slideTape .slider{
+        height: 123px;
+        display: block;
+        overflow: hidden;
+        position: absolute;
+        padding: 2px 38px;
+
+
+    }
+
+    .slideTape .slider li img{
+        height: 123px;
+        width: 123px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #cecacb;
+
+    }
+    .slideTape .slider li {
+        height: 143px;
+        width: 123px;
+        padding-right: 10px;
+        display: block;
+        float:left;
+    }
+    .slideTape .next, .slideTape .back{
+        width: 20px;
+        height: 43px;
+        background-color: #bebebe;
+        padding-top: 24px;
+        padding-left: 9px;
+        position: relative;
+        margin-top: 24px;
+        cursor: pointer;
+    }
+    .slideTape .next{
+        left: 571px;
+        top: -43px;
+        
+    }
+    .slideTape .back{
+        
+        left: 1px;
+        top: 45px;
+   
+    }
+    .slideTape .back:hover,.slideTape .next:hover{
+     
+        background-color: #3598db;
+        cursor: pointer;
+      
+
+    }
+    .slideTape .addPhoto{
+        position: relative;
+        left: 440px;
+        top: -148px;
+        background-color: #fff;
+        width: 118px;
+        height: 122px;
+        cursor: pointer;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #cecacb;
+    }
+
+    .slideTape .addPhoto img{
+        position: relative;
+        left: 34px;
+        top: 11px;
+    }
+    .slideTape .addPhoto div{
+        position: relative;
+        left: 0px;
+        top: 28px;
+        text-align: center;
+        font-size: 12px;
+        color: #007bc1;
+    }
