@@ -1,4 +1,4 @@
 slideTape
 =========
 
-slideTape - easy jQuery slider plagin
+slideTape - easy jQuery slider plugin
